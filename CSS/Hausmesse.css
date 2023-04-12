@@ -1,0 +1,46 @@
+body { 
+  margin: 0;
+  padding: 0; 
+  font-family: 'bahnschrift light';font-size: 22px;
+  background: rgb(35,35,45);
+}
+
+#map {
+  position: absolute;
+  top: 0; 
+  bottom: 0;
+  width: 100%;
+  background: rgb(35,35,45);
+}
+h3{
+  background-image: linear-gradient(90deg, rgb(249,176,0), rgb(0,166,141),rgb(5,95,171));
+  -webkit-background-clip: text;
+  font: 'Bahnschrift';
+  -webkit-text-fill-color: transparent;
+  font-size: 1.4em;
+}
+a{
+font: 12px/20px 'bahnschrift light';
+color: white;
+}
+
+.mapboxgl-ctrl-pitchtoggle-3d {
+          background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCI+ICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkeT0iLjM1ZW0iIHN0eWxlPSJmb250LXNpemU6IDE0cHg7IGZvbnQtZmFtaWx5OiAnSGVsdmV0aWNhIE5ldWUnLEFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmOyBmb250LXdlaWdodDogYm9sZDsgdGV4dC1hbmNob3I6IG1pZGRsZTsiPjNEPC90ZXh0Pjwvc3ZnPg==);
+      }
+
+    .mapboxgl-ctrl-pitchtoggle-2d {
+      background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCI+ICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkeT0iLjM1ZW0iIHN0eWxlPSJmb250LXNpemU6IDE0cHg7IGZvbnQtZmFtaWx5OiAnSGVsdmV0aWNhIE5ldWUnLEFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmOyBmb250LXdlaWdodDogYm9sZDsgdGV4dC1hbmNob3I6IG1pZGRsZTsiPjJEPC90ZXh0Pjwvc3ZnPg==);
+  }
+
+.mapboxgl-popup-close-button{
+  color:white; 
+
+}
+.mapboxgl-popup-content{
+  position:relative;
+  background:none;
+  /*background-color: rgb(35,35,45);*/
+  position:realtive;
+  font: 400 15px/22px;  
+  color:white;
+}
